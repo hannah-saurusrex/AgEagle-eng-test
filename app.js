@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaHJvc2VtY21haG9uIiwiYSI6ImNqdTh2eDB6NjI5ajk0Z
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [-74.50, 40], // starting position
-    zoom: 9 // starting zoom
+    zoom: 8 // starting zoom
     });
 
     // Add zoom and rotation controls to the map.

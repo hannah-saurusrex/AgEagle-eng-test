@@ -8,6 +8,7 @@
   <title>AgEagle Engineering Test</title>
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto" rel="stylesheet">  
   <link rel="stylesheet" href="style.css">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,8 +16,25 @@
 </head>
 
 <body>
-    <div id='map' style='width: 400px; height: 300px;'></div>
+  <div class="site-wrapper">
+    <div class="header">
+      <h1>AgEagle Engineering Test - Hannah R. McMahon</h1>
+      <h2>Map of the world</h2>
+      <p>Click and drag the map around to locations of your choosing. <br>Click on a specific location to view the current weather data!</p>
+    </div>
+    
+    <div class="map">
+      <div id='map' style='height: 400px;'></div>
+    </div>
+
+    <footer>
+      <p>This webapp was designed and built by Hannah R. McMahon as part of the <br>AgEagle Engineering Assessment for the Software Engineer position. April 2019.</p>
+    </footer>
+    
+  </div>
+  
 
 <script src="app.js"></script>
+<script src="weather.js"></script>
 </body>
 </html>
