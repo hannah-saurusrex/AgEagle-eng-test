@@ -10,7 +10,7 @@ body {
 
 .map {
     position: relative;
-    border: 1px solid rgba(17, 89, 28, 1);
+    border: 2px solid rgba(17, 89, 28, 1);
     max-width: auto;
     align-items: center;
 }
@@ -33,10 +33,13 @@ body {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    line-height: 32px;
+    color: rgba(17, 89, 28, 1);
 }
 
 .content {
-    position: initial;
+    padding: 10px 0;
+    margin: 0 48%;
 }
 
 footer {
